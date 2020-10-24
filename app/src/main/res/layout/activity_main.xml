@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/teal_200"
+    android:background="@drawable/image"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/indicator"
         android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/teal_200"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/arr"
         android:src="@drawable/ic_baseline_arrow_drop_down_24"/>
 
     <ImageView
@@ -21,26 +22,27 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:layout_marginTop="20dp"
-        android:background="@color/teal_200"
         android:src="@drawable/circle" />
+
     <Button
         android:id="@+id/spin"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="5dp"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:background="@color/black"
-        android:text="Spin"/>
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/round"
+        android:text="Spin It !"
+        android:autoSizeMaxTextSize="10dp"
+        android:textSize="20sp"/>
+
     <EditText
         android:id="@+id/point"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/btn"
         android:gravity="center"
-        android:hint="Number"
-        android:background="@color/white"
-        android:textColor="@color/black"
-        android:layout_marginTop="10dp"/>
+        android:hint="Enter a number here"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black" />
 
 </LinearLayout>

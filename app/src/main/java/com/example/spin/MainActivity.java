@@ -1,5 +1,6 @@
 package com.example.spin;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
@@ -8,9 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends Activity
 {
         //initializing buttons,textview,imageview used in design
 
@@ -53,7 +52,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         zero.setFillAfter(true);
-                        zero.setDuration(2000);
+                        zero.setDuration(3500);
                         zero.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(zero);
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         one.setFillAfter(true);
-                        one.setDuration(2000);          //Spinning wheel is set to rotate for 2sec
+                        one.setDuration(3500);          //Spinning wheel is set to rotate for 2sec
                         one.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(one);
@@ -78,17 +77,18 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         two.setFillAfter(true);
-                        two.setDuration(2000);
+                        two.setDuration(3500);
                         two.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(two);
+                        break;
                     case 3:
                         RotateAnimation three = new RotateAnimation(0, 594,
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f,
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         three.setFillAfter(true);
-                        three.setDuration(2000);
+                        three.setDuration(3500);
                         three.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(three);
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         four.setFillAfter(true);
-                        four.setDuration(2000);
+                        four.setDuration(3500);
                         four.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(four);
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         five.setFillAfter(true);
-                        five.setDuration(2000);
+                        five.setDuration(3500);
                         five.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(five);
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         six.setFillAfter(true);
-                        six.setDuration(2000);
+                        six.setDuration(3500);
                         six.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(six);
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         seven.setFillAfter(true);
-                        seven.setDuration(2000);
+                        seven.setDuration(3500);
                         seven.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(seven);
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         eight.setFillAfter(true);
-                        eight.setDuration(2000);
+                        eight.setDuration(3500);
                         eight.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(eight);
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity
                                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
 
                         nine.setFillAfter(true);
-                        nine.setDuration(2000);
+                        nine.setDuration(3500);
                         nine.setInterpolator(new DecelerateInterpolator());
 
                         wheelImage.startAnimation(nine);
